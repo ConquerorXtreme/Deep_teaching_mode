@@ -1,0 +1,84 @@
+Okay, chalo "Electric Charge" aur "Coulomb's Law" ko exam ke liye jaldi se revise karte hain!
+
+**29.1 What is Electric Charge?**
+
+*   **Basic Idea:** Har cheez jo tum dekhte ho, electrons, protons, aur neutrons se bani hai. Electrons negative charge carry karte hain, protons positive charge, aur neutrons ka koi charge nahi hota.
+    *   Electrons: negative charge
+    *   Protons: positive charge
+    *   Neutrons: no charge
+*   **Charge ka nature:** Electrons aur protons ek-dusre ko attract karte hain (opposite charges attract), aur same charges repel karte hain. yeh attraction/repulsion ek force banata hain, jisko hum electric force kehte hain. electric force is far greater than gravitational force.
+
+*   **Formula:** Net charge, `Q = n₁e - n₂e`  where `n₁` is number of protons and `n₂` is number of electrons. `e` is charge of 1 electron (1.602 x 10^-19 C)
+*   **Real-world application:**
+    *   Static electricity: jab aap apne baalon mein comb karte hain, comb electric charge acquire karta hai.
+    *   Lightning: clouds mein charge buildup ki vajah se hoti hai.
+
+*   **Charge is Quantized:** Charge hamesha ek basic unit, `e` (electron ke charge) ka multiple hota hai.  You can't have half an electron's worth of charge!
+
+*   **Charge is Conserved:** Aap charge create ya destroy nahi kar sakte, sirf ek object se dusre object mein transfer kar sakte ho.
+    *   Beta decay: Neutron converts into proton and electron.
+
+*   **Frictional Electricity:** Jab aap do cheezon ko ragadte ho, toh electrons ek cheez se dusri cheez mein transfer ho sakte hain, jisse un cheezon par charge aa jata hai.
+
+*   **Induction:** Ek charged object kisi neutral object mein charge redistribute kar sakta hai, jisse attraction hota hai.
+
+**Quick Revision Points:**
+
+*   Electrons: negative, Protons: positive, Neutrons: neutral.
+*   Opposites attract, likes repel.
+*   Charge is quantized and conserved.
+
+**29.2 Coulomb's Law**
+
+*   **Basic Idea:** Coulomb's Law batata hai ki do charged objects ke beech electric force kitni strong hogi.
+*   **Formula:**
+    ```
+    F = k * |q1 * q2| / r²
+    ```
+    Where:
+
+    *   `F` is the electric force
+    *   `k` is Coulomb's constant (approximately 8.98755 × 10^9 Nm²/C²)
+    *   `q1` and `q2` are the magnitudes of the charges
+    *   `r` is the distance between the charges
+
+*   **Real-world application:**
+    *   Photocopiers and laser printers: use electrostatic forces to attract toner to the drum and paper.
+    *   Electrostatic painting: charged paint particles are attracted to the object being painted, resulting in a uniform coating.
+*   **Important points:**
+    *   Force is along the line joining the two charges.
+    *   Like charges repel, unlike charges attract.
+    *   The constant epsilon (permittivity of free space) value is  8.85419 × 10-12 C2 N-1 m-2
+
+**Common Question Patterns:**
+
+*   Do charges diye honge, distance diya hoga, aur force calculate karne ko bolenge.
+*   Force diya hoga, charges diye honge, aur distance calculate karne ko bolenge.
+*   Conceptual questions on how force changes if you change the charges or distance.
+
+**How to Approach Problems:**
+
+1.  **Identify:** Kya diya hai (charges, distance, force) aur kya nikalna hai.
+2.  **Use the formula:** `F = k * |q1 * q2| / r²`
+3.  **Units:** Hamesha SI units use karo (charge in Coulombs, distance in meters, force in Newtons).
+4.  **Sign:**  Agar charges same sign ke hain, toh force repulsive hogi; agar opposite sign ke hain, toh force attractive hogi.
+
+**Example:**
+
+Do charges hain: `q1 = +2 C` and `q2 = -3 C`, aur unke beech ki distance `r = 0.5 m` hai. Force nikalna hai.
+
+```
+F = (9 × 10^9 Nm²/C²) * |(2 C) * (-3 C)| / (0.5 m)²
+F = (9 × 10^9) * 6 / 0.25
+F = 216 × 10^9 N
+```
+
+Since the charges are of opposite sign, the force is attractive.
+
+**Last-Minute Tips:**
+
+*   Coulomb's Law ka formula yaad kar lo.
+*   Units ka dhyan rakho.
+*   Practice numericals!
+
+All the best for your exams!

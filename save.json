@@ -1,0 +1,483 @@
+[
+    [
+        "Chapter 23: Heat and Temperature",
+        {
+            "23.1 Hot and Cold Bodies": "1",
+            "23.2 Zeroth Law of Thermodynamics": "1",
+            "23.3 Defining Scale of Temperature: Mercury and Resistance Thermometers": "1",
+            "23.4 Constant Volume Gas Thermometer": "3",
+            "23.5 Ideal Gas Temperature Scale": "5",
+            "23.6 Celsius Temperature Scale": "5",
+            "23.7 Ideal Gas Equation": "5",
+            "23.8 Callender's Compensated Constant Pressure Thermometer": "5",
+            "23.9 Adiabatic and Diathermic Walls": "6",
+            "23.10 Thermal Expansion": "6",
+            "Worked Out Examples": "7",
+            "Questions for Short Answer": "11",
+            "Objective I": "11",
+            "Objective II": "12",
+            "Exercises": "12"
+        }
+    ],
+    [
+        "Chapter 24: Kinetic Theory of Gases",
+        {
+            "24.1 Introduction": "15",
+            "24.2 Assumptions of Kinetic Theory of Gases": "15",
+            "24.3 Calculation of the Pressure of an Ideal Gas": "16",
+            "24.4 rms Speed": "16",
+            "24.5 Kinetic Interpretation of Temperature": "17",
+            "24.6 Deductions from Kinetic Theory": "18",
+            "24.7 Ideal Gas Equation": "19",
+            "24.8 Maxwell's Speed Distribution Law": "20",
+            "24.9 Thermodynamic State": "20",
+            "24.10 Brownian Motion": "21",
+            "24.11 Vapour": "21",
+            "24.12 Evaporation": "22",
+            "24.13 Saturated and Unsaturated Vapour : Vapour Pressure": "22",
+            "24.14 Boiling": "23",
+            "24.15 Dew Point": "23",
+            "24.16 Humidity": "24",
+            "24.17 Determination of Relative Humidity": "24",
+            "24.18 Phase Diagrams: Triple Point": "25",
+            "24.19 Dew and Fog": "25",
+            "Worked Out Examples": "26",
+            "Questions for Short Answer": "32",
+            "Objective I": "33",
+            "Objective II": "33",
+            "Exercises": "34"
+        }
+    ],
+    [
+        "Chapter 25: Calorimetry",
+        {
+            "25.1 Heat as a Form of Energy": "39",
+            "25.2 Units of Heat": "39",
+            "25.3 Principle of Calorimetry": "39",
+            "25.4 Specific Heat Capacity and Molar Heat Capacity": "39",
+            "25.5 Determination of Specific Heat Capacity in Laboratory": "40",
+            "25.6 Specific Latent Heat of Fusion and Vaporization": "41",
+            "25.7 Measurement of Specific Latent Heat of Fusion of Ice": "41",
+            "25.8 Measurement of Specific Latent Heat of Vaporization of Water": "42",
+            "25.9 Mechanical Equivalent of Heat": "43",
+            "Worked Out Examples": "44",
+            "Questions for Short Answer": "46",
+            "Objective I": "46",
+            "Objective II": "46",
+            "Exercises": "47"
+        }
+    ],
+    [
+        "Chapter 26: Laws of Thermodynamics",
+        {
+            "26.1 The First Law of Thermodynamics": "49",
+            "26.2 Work Done by a Gas": "50",
+            "26.3 Heat Engines": "51",
+            "26.4 The Second Law of Thermodynamics": "53",
+            "26.5 Reversible and Irreversible Processes": "54",
+            "26.6 Entropy": "55",
+            "26.7 Carnot Engine": "55",
+            "Worked Out Examples": "57",
+            "Questions for Short Answer": "60",
+            "Objective I": "61",
+            "Objective II": "61",
+            "Exercises": "62"
+        }
+    ],
+    [
+        "Chapter 27: Specific Heat Capacities of Gases",
+        {
+            "27.1 Two Kinds of Specific Heat Capacities of Gases": "65",
+            "27.2 Relation Between C, and C for an Ideal Gas": "66",
+            "27.3 Determination of C of a Gas": "67",
+            "27.4 Determination of C of a Gas": "68",
+            "27.5 Isothermal and Adiabatic Processes": "68",
+            "27.6 Relations between p, V, T in a Reversible Adiabatic Process": "69",
+            "27.7 Work Done in an Adiabatic Process": "70",
+            "27.8 Equipartition of Energy": "70",
+            "Worked Out Examples": "72",
+            "Questions for Short Answer": "76",
+            "Objective I": "76",
+            "Objective II": "77",
+            "Exercises": "77"
+        }
+    ],
+    [
+        "Chapter 28: Heat Transfer",
+        {
+            "28.1 Thermal Conduction": "81",
+            "28.2 Series and Parallel Connection of Rods": "82",
+            "28.3 Measurement of Thermal Conductivity of a Solid": "83",
+            "28.4 Convection": "84",
+            "28.5 Radiation": "84",
+            "28.6 Prevost Theory of Exchange": "84",
+            "28.7 Blackbody Radiation": "85",
+            "28.8 Kirchhoff's Law": "85",
+            "28.9 Nature of Thermal Radiation": "86",
+            "28.10 Stefan-Boltzmann Law": "87",
+            "28.11 Newton's Law of Cooling": "87",
+            "28.12 Detection and Measurement of Radiation": "88",
+            "Worked Out Examples": "89",
+            "Questions for Short Answer": "96",
+            "Objective I": "97",
+            "Objective II": "97",
+            "Exercises": "98"
+        }
+    ],
+    [
+        "Chapter 29: Electric Field and Potential",
+        {
+            "29.1 What Is Electric Charge ?": "104",
+            "29.2 Coulomb's Law": "105",
+            "29.3 Electric Field": "106",
+            "29.4 Lines of Electric Force": "107",
+            "29.5 Electric Potential Energy": "107",
+            "29.6 Electric Potential": "108",
+            "29.7 Electric Potential due to a Point Charge": "109",
+            "29.8 Relation between Electric Field and Potential": "109",
+            "29.9 Electric Dipole": "110",
+            "29.10 Torque on an Electric Dipole Placed in an Electric Field": "112",
+            "29.11 Potential Energy of a Dipole Placed in a Uniform Electric Field": "112",
+            "29.12 Conductors, Insulators and Semiconductors": "113",
+            "29.13 The Electric Field inside a Conductor": "113",
+            "Worked Out Examples": "114",
+            "Questions for Short Answer": "119",
+            "Objective I": "119",
+            "Objective II": "120",
+            "Exercises": "121"
+        }
+    ],
+    [
+        "Chapter 30: Gauss's Law",
+        {
+            "30.1 Flux of an Electric Field through a Surface": "127",
+            "30.2 Solid Angle": "128",
+            "30.3 Gauss's Law and Its Derivation from Coulomb's Law": "129",
+            "30.4 Applications of Gauss's Law": "131",
+            "30.5 Spherical Charge Distributions": "134",
+            "30.6 Earthing a Conductor": "135",
+            "Worked Out Examples": "136",
+            "Questions for Short Answer": "139",
+            "Objective I": "139",
+            "Objective II": "140",
+            "Exercises": "141"
+        }
+    ],
+    [
+        "Chapter 31: Capacitors",
+        {
+            "31.1 Capacitor and Capacitance": "144",
+            "31.2 Calculation of Capacitance": "145",
+            "31.3 Combination of Capacitors": "147",
+            "31.4 Force between the Plates of a Capacitor": "150",
+            "31.5 Energy Stored in a Capacitor and Energy Density in Electric Field": "150",
+            "31.6 Dielectrics": "151",
+            "31.7 Parallel-plate Capacitor with a Dielectric": "152",
+            "31.8 An Alternative Form of Gauss's Law": "153",
+            "31.9 Electric Field due to a Point Charge q Placed in an Infinite Dielectric": "154",
+            "31.10 Energy in the Electric field in a Dielectric": "154",
+            "31.11 Corona Discharge": "154",
+            "31.12 High-voltage Generator": "155",
+            "Worked Out Examples": "156",
+            "Questions for Short Answer": "164",
+            "Objective I": "165",
+            "Objective II": "165",
+            "Exercises": "166"
+        }
+    ],
+    [
+        "Chapter 32: Electric Current In Conductors",
+        {
+            "32.1 Electric Current and Current Density": "172",
+            "32.2 Drift Speed": "173",
+            "32.3 Ohm's Law": "174",
+            "32.4 Temperature Dependence of Resistivity": "175",
+            "32.5 Battery and emf": "176",
+            "32.6 Energy Transfer in an Electric Circuit": "177",
+            "32.7 Kirchhoff's Laws": "178",
+            "32.8 Combination of Resistors in Series and Parallel": "179",
+            "32.9 Grouping of Batteries": "180",
+            "32.10 Wheatstone Bridge": "181",
+            "32.11 Ammeter and Voltmeter": "182",
+            "32.12 Stretched-wire Potentiometer": "183",
+            "32.13 Charging and Discharging of Capacitors": "185",
+            "32.14 Atmospheric Electricity": "186",
+            "Worked Out Examples": "187",
+            "Questions for Short Answer": "196",
+            "Objective I": "196",
+            "Objective II": "197",
+            "Exercises": "198"
+        }
+    ],
+    [
+        "Chapter 33: Thermal and Chemical Effects of Electric Current",
+        {
+            "33.1 Joule's Laws of Heating": "206",
+            "33.2 Verification of Joule's Laws": "207",
+            "33.3 Seebeck Effect": "207",
+            "33.4 Peltier Effect": "209",
+            "33.5 Thomson Effect": "210",
+            "33.6 Explanation of Seebeck, Peltier and Thomson Effects": "210",
+            "33.7 Electrolysis": "211",
+            "33.8 Faraday's Laws of Electrolysis": "211",
+            "33.9 Voltameter or Coulombmeter": "213"
+        }
+    ],
+    [
+        "Chapter 34: Magnetic Field",
+        {
+            "34.1 Introduction": "221",
+            "34.2 Definition of Magnetic Field B": "221",
+            "34.3 Relation between Electric and Magnetic Fields": "222",
+            "34.4 Motion of a Charged Particle in a Uniform Magnetic Field": "222",
+            "34.5 Magnetic Force on a Current-carrying Wire": "223",
+            "34.6 Torque on a Current Loop": "224",
+            "Worked Out Examples": "225",
+            "Questions for Short Answer": "228",
+            "Objective I": "229",
+            "Objective II": "229",
+            "Exercises": "230"
+        }
+    ],
+    [
+        "Chapter 35: Magnetic Field due to a Current",
+        {
+            "35.1 Biot-Savart Law": "237",
+            "35.2 Magnetic Field due to Current in a Straight Wire": "238",
+            "35.3 Force between Parallel Currents": "239",
+            "35.4 Field due to a Circular Current": "239",
+            "35.5 Ampere's Law": "241",
+            "35.6 Magnetic Field at a Point due to a Long, Straight Current": "241",
+            "35.7 Solenoid": "242",
+            "35.8 Toroid": "243",
+            "Worked Out Examples": "243",
+            "Questions for Short Answer": "248",
+            "Objective I": "248",
+            "Objective II": "249",
+            "Exercises": "249"
+        }
+    ],
+    [
+        "Chapter 36: Permanent Magnets",
+        {
+            "36.1 Magnetic Poles and Bar Magnets": "255",
+            "36.2 Torque on a Bar Magnet Placed in a Magnetic Field": "257",
+            "36.3 Magnetic Field due to a Bar Magnet": "258",
+            "36.4 Magnetic Scalar Potential": "258",
+            "36.5 Terrestrial Magnetism": "260",
+            "36.6 Determination of Dip at a Place": "261",
+            "36.7 Neutral Point": "263",
+            "36.8 Tangent Galvanometer": "263",
+            "36.9 Moving-coil Galvanometer": "264",
+            "36.10 Shunt": "265",
+            "36.11 Tangent Law of Perpendicular Fields": "265",
+            "36.12 Deflection Magnetometer": "266",
+            "36.13 Oscillation Magnetometer": "268",
+            "36.14 Determination of M and BH": "270",
+            "36.15 Gauss's Law for Magnetism": "270",
+            "Worked Out Examples": "270",
+            "Questions for Short Answer": "275",
+            "Objective I": "276",
+            "Objective II": "277",
+            "Exercises": "277"
+        }
+    ],
+    [
+        "Chapter 37: Magnetic Properties of Matter",
+        {
+            "37.1 Magnetization of Materials : Intensity of Magnetization": "279",
+            "37.2 Paramagnetism, Ferromagnetism and Diamagnetism": "280",
+            "37.3 Magnetic Intensity H": "281",
+            "37.4 Magnetic Susceptibility": "281",
+            "37.5 Permeability": "281",
+            "37.6 Curie's Law": "282",
+            "37.7 Properties of Dia-, Para- and Ferromagnetic Substances": "282",
+            "37.8 Hysteresis": "283",
+            "37.9 Soft Iron and Steel": "283",
+            "Worked Out Examples": "284",
+            "Questions for Short Answer": "285",
+            "Objective I": "285",
+            "Objective II": "286",
+            "Exercises": "286"
+        }
+    ],
+    [
+        "Chapter 38: Electromagnetic Induction",
+        {
+            "38.1 Faraday's Law of Electromagnetic Induction": "288",
+            "38.2 Lenz's Law": "289",
+            "38.3 The Origin of Induced emf": "289",
+            "38.4 Eddy Current": "291",
+            "38.5 Self-induction": "291",
+            "38.6 Growth and Decay of Current in an LR Circuit": "292",
+            "38.7 Energy Stored in an Inductor": "294",
+            "38.8 Mutual Induction": "295",
+            "38.9 Induction Coil": "295",
+            "Worked Out Examples": "296",
+            "Questions for Short Answer": "303",
+            "Objective I": "304",
+            "Objective II": "305",
+            "Exercises": "306"
+        }
+    ],
+    [
+        "Chapter 39: Alternating Current",
+        {
+            "39.1 Alternating Current": "316",
+            "39.2 AC Generator or AC Dynamo": "316",
+            "39.3 Instantaneous and rms Current": "317",
+            "39.4 Simple AC Circuits": "318",
+            "39.6 Vector Method to Find the Current in an AC Circuit": "320",
+            "39.6 More AC Circuits": "320",
+            "39.7 Power in AC Circuits": "322",
+            "39.8 Choke Coil": "323",
+            "39.9 Hot-wire Instruments": "323"
+        }
+    ],
+    [
+        "Chapter 40: Electromagnetic Waves",
+        {
+            "40.1 Introduction": "332",
+            "40.2 Maxwell's Displacement Current": "332",
+            "40.3 Continuity of Electric Current": "333",
+            "40.4 Maxwell's Equations and Plane Electromagnetic Waves": "334",
+            "40.5 Energy Density and Intensity": "335",
+            "40.6 Momentum": "336",
+            "40.7 Electromagnetic Spectrum and Radiation in Atmosphere": "336",
+            "Worked Out Examples": "337",
+            "Questions for Short Answer": "338",
+            "Objective I": "338",
+            "Objective II": "339",
+            "Exercises": "339"
+        }
+    ],
+    [
+        "Chapter 41: Electric Current through Gases",
+        {
+            "41.1 Discharge through Gases at Low Pressure": "341",
+            "41.2 Cathode Rays": "343",
+            "41.3 Canal Rays or Positive Rays": "343",
+            "41.4 Discovery and Properties of Electron": "344",
+            "41.5 Thermionic Emission": "345",
+            "41.6 Diode Valve": "346",
+            "41.7 Triode Valve": "347",
+            "41.8 Triode as an Amplifier": "349",
+            "Worked Out Examples": "349",
+            "Questions for Short Answer": "351",
+            "Objective I": "351",
+            "Objective II": "352",
+            "Exercises": "352"
+        }
+    ],
+    [
+        "Chapter 42: Photoelectric Effect and Wave-Particle Duality",
+        {
+            "42.1 Photon Theory of Light": "355",
+            "42.2 Photoelectric Effect": "356",
+            "42.3 Matter Waves": "359",
+            "Worked Out Examples": "359",
+            "Questions for Short Answer": "363",
+            "Objective I": "363",
+            "Objective II": "364",
+            "Exercises": "365"
+        }
+    ],
+    [
+        "Chapter 43: Bohr's Model and Physics of the Atom",
+        {
+            "43.1 Early Atomic Models": "368",
+            "43.2 Hydrogen Spectra": "369",
+            "43.3 Difficulties with Rutherford's Model": "370",
+            "43.4 Bohr's Model": "370",
+            "43.5 Limitations of Bohr's Model": "373",
+            "43.6 The Wave Function of an Electron": "374",
+            "43.7 Quantum Mechanics of the Hydrogen Atom": "374",
+            "43.8 Nomenclature in Atomic Physics": "375",
+            "43.9 Laser": "375",
+            "Worked Out Examples": "378",
+            "Questions for Short Answer": "382",
+            "Objective I": "383",
+            "Objective II": "383",
+            "Exercises": "384"
+        }
+    ],
+    [
+        "Chapter 44: X-rays",
+        {
+            "44.1 Production of X-rays": "388",
+            "44.2 Continuous and Characteristic X-rays": "388",
+            "44.3 Soft and Hard X-rays": "390",
+            "44.4 Moseley's Law": "390",
+            "44.5 Bragg's Law": "391",
+            "44.6 Properties and Uses of X-rays": "391",
+            "Worked Out Examples": "392",
+            "Questions for Short Answer": "393",
+            "Objective I": "393",
+            "Objective II": "394",
+            "Exercises": "395"
+        }
+    ],
+    [
+        "Chapter 45: Semiconductors and Semiconductor Devices",
+        {
+            "45.1 Introduction": "397",
+            "45.2 Energy Bands in Solids": "397",
+            "45.3 The Semiconductor": "400",
+            "45.4 p-type and n-type Semiconductors": "400",
+            "45.5 Density of Charge Carriers and Conductivity": "401",
+            "45.6 p-n Junction": "402",
+            "45.7 p-n Junction Diode": "403",
+            "45.8 p-n Junction as a Rectifier": "405",
+            "45.9 Junction Transistors": "406",
+            "45.10 Logic Gates": "409",
+            "Worked Out Examples": "414",
+            "Questions for Short Answer": "416",
+            "Objective I": "417",
+            "Objective II": "418",
+            "Exercises": "419"
+        }
+    ],
+    [
+        "Chapter 46: The Nucleus",
+        {
+            "46.1 Properties of a Nucleus": "422",
+            "46.2 Nuclear Forces": "424",
+            "46.3 Binding Energy": "425",
+            "46.4 Radioactive Decay": "427",
+            "46.5 Law of Radioactive Decay": "429",
+            "46.6 Properties and Uses of Nuclear Radiation": "431",
+            "46.7 Energy from the Nucleus": "431",
+            "46.8 Nuclear Fission": "432",
+            "46.9 Uranium Fission Reactor": "433"
+        }
+    ],
+    [
+        "Chapter 47: The Special Theory of Relativity",
+        {
+            "47.1 The Principle of Relativity": "446",
+            "47.2 Are Maxwell's Laws Independent of Frame ?": "446",
+            "47.3 Kinematical Consequences": "447",
+            "47.4 Dynamics at Large Velocity": "451",
+            "47.5 Energy and Momentum": "452",
+            "47.6 The Ultimate Speed": "453",
+            "47.7 Twin Paradox": "453",
+            "Worked Out Examples": "455",
+            "Questions for Short Answer": "456",
+            "Objective I": "457",
+            "Objective II": "457",
+            "Exercises": "458"
+        }
+    ],
+    [
+        "APPENDIX A",
+        {}
+    ],
+    [
+        "APPENDIX B",
+        {}
+    ],
+    [
+        "INDEX",
+        {}
+    ]
+]

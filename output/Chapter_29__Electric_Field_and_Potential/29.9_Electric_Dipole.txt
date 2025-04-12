@@ -1,0 +1,61 @@
+Okay, chalo electric dipole ke baare mein exam-oriented discussion karte hain. एकदम exam ke liye ready hojao!
+
+**Key Concepts and Formulas**
+
+*   **Electric Dipole kya hota hai?** Do equal aur opposite charges (+q aur -q) ek chote distance (d) se separate hue. Imagine karo ek positive aur ek negative charge ek dusre ke kareeb rakhe hue hain.
+    *   **Real-world application:** Water molecules ek dipole ki tarah behave karte hain, isliye microwave ovens mein food garam hota hai. Antennas mein bhi use hota hai.
+*   **Dipole Moment (p):** Dipole ki strength ko measure karta hai. Formula:
+    *   `p = q * d`  (q is charge ka magnitude, d is distance between charges)
+    *   Yeh ek vector quantity hai; direction negative charge se positive charge ki taraf hoti hai.
+*   **Electric Potential due to a Dipole:** Kisi point par dipole ki wajah se potential kitna hota hai. Important formula:
+    *   `V = (1 / 4πε₀) * (p cosθ / r²)`
+        *   `ε₀` is permittivity of free space (constant).
+        *   `r` is distance from the center of the dipole to the point where potential is measured.
+        *   `θ` is angle between dipole moment vector (p) and the line joining the center of dipole to the point.
+*   **Electric Field due to a Dipole:** Dipole ke aas paas electric field kitni hoti hai.
+    *   Radial component: `Er = (1 / 4πε₀) * (2p cosθ / r³)`
+    *   Transverse component: `Eθ = (1 / 4πε₀) * (p sinθ / r³)`
+*   **Torque on a Dipole in a Uniform Electric Field:** Jab ek dipole ko electric field mein rakhte hain, toh uspar torque lagta hai, jo usko align karne ki koshish karta hai.
+    *   Formula: `τ = pE sinθ`  ya vector form mein: `τ = p × E`
+        *   `E` is electric field strength.
+        *   `θ` is angle between dipole moment and electric field.
+    *   **Real-world application:** Electric motors is concept par work karte hain.
+*   **Potential Energy of a Dipole in a Uniform Electric Field:** Dipole ko electric field mein rakhne par uski potential energy hoti hai.
+    *   Formula: `U = -pE cosθ`  ya vector form mein: `U = -p ⋅ E`
+        *   Minimum energy hoti hai jab dipole electric field ke saath align ho (θ = 0).
+        *   Maximum energy hoti hai jab dipole electric field ke opposite ho (θ = 180).
+
+**Common Question Patterns and Approach**
+
+1.  **Potential Calculation:**
+    *   **Question:** Calculate the electric potential at a point due to a dipole.
+    *   **Approach:** Formula `V = (1 / 4πε₀) * (p cosθ / r²)` use karo.  `r` aur `θ`  ki values carefully identify karo.
+
+2.  **Electric Field Calculation:**
+    *   **Question:** Find the electric field (radial and transverse components) at a given point due to a dipole.
+    *   **Approach:** `Er` aur `Eθ` ke formulas use karo. Coordinate system ka dhyan rakho.
+
+3.  **Torque Problems:**
+    *   **Question:** A dipole is placed in a uniform electric field. Calculate the torque acting on it.
+    *   **Approach:** `τ = pE sinθ` use karo. Direction of torque find karne ke liye right-hand rule use karo.
+
+4.  **Potential Energy Problems:**
+    *   **Question:** Calculate the potential energy of a dipole in an electric field.
+    *   **Approach:** `U = -pE cosθ` use karo. Equilibrium positions (stable and unstable) identify karo.
+
+**Quick Revision Points**
+
+*   **Dipole Moment:** `p = q * d`
+*   **Potential:** `V = (1 / 4πε₀) * (p cosθ / r²)`
+*   **Torque:** `τ = pE sinθ`
+*   **Potential Energy:** `U = -pE cosθ`
+*   Electric field lines positive se start hokar negative par end hoti hain, aur equipotential surfaces electric field lines ke perpendicular hoti hain.
+*   **Direction:** Dipole moment ki direction yaad rakho (negative to positive).
+
+**Last-Minute Tips**
+
+*   Saare formulas revise karlo.
+*   Units ka dhyan rakho (charge in Coulombs, distance in meters, electric field in N/C, potential in Volts).
+*   Diagrams bana kar question ko visualize karne ki koshish karo.
+
+All the best!

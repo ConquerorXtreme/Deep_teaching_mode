@@ -1,0 +1,67 @@
+Okay, chalo Coulomb's Law ko exam ke liye jaldi se revise karte hain!
+
+**Key Concepts and Formulas**
+
+*   **Coulomb's Law kya hai?** Do charges ke beech mein jo force lagta hai, usko Coulomb's Law batata hai.
+
+*   **Formula:**
+    ```
+    F = k * |q1 * q2| / r^2
+    ```
+    yahan,
+    *   `F` force hai (attractive ya repulsive)
+    *   `q1` aur `q2` charges hain
+    *   `r` dono charges ke beech ka distance hai
+    *   `k` Coulomb's constant hai (approximately 9 x 10^9 N m²/C²)
+
+*   **Vector Form:** Force ki direction bhi important hai.  Vector form mein:
+
+    ```
+    F = k * q1 * q2 * r_hat / r^2
+    ```
+
+    yahan, `r_hat` unit vector hai jo ek charge se dusre charge ki taraf point karta hai.
+
+*   **Permittivity of Free Space (ε₀):**  `k = 1 / (4 * pi * ε₀)`.  ε₀ ki value hoti hai 8.854 x 10^-12 C²/N m². Yeh batata hai ki electric field vacuum mein kitna easily ban sakta hai.
+
+**Real-World Applications**
+
+*   **Electrostatic Force in everyday life:**
+    *   Photocopiers aur laser printers mein toner ko drum par attract karne ke liye.
+    *   Electrostatic painting mein, paint particles ko charge kiya jata hai aur woh object par attract hote hain.
+    *   Static electricity (jaise ki kapde chipakna).
+*   **Atomic Structure:** Atoms mein electrons aur nucleus ke beech mein electrostatic force hi unko bandh ke rakhta hai.
+
+**Common Question Patterns**
+
+1.  **Direct Calculation:**
+    *   **Question:** Do charges diye gaye hain, unke beech ka distance bhi diya gaya hai. Force calculate karo.
+    *   **Approach:** Seedha formula use karo aur values plug in karo. Units ka dhyan rakho!
+
+2.  **Force Direction:**
+    *   **Question:** Do charges hain, batao force attractive hoga ya repulsive.
+    *   **Approach:** Agar charges same sign ke hain (positive-positive ya negative-negative), toh repulsive. Agar opposite sign ke hain (positive-negative), toh attractive.
+
+3.  **Net Force:**
+    *   **Question:** Ek charge par do ya teen charges force laga rahe hain. Net force calculate karo.
+    *   **Approach:** Har charge ki wajah se force calculate karo (vector form mein!), phir unko vectorially add karo.
+
+4.  **Equilibrium:**
+    *   **Question:** Ek charge ko kahan rakhein ki uspar net force zero ho?
+    *   **Approach:** Forces ko balance karo.  Agar do charges hain, toh equilibrium point unke beech mein hoga (agar dono same sign ke hain) ya unke bahar hoga (agar opposite sign ke hain).
+
+**Quick Revision Points**
+
+*   Coulomb's Law inverse square law hai (force distance ke square ke inversely proportional hota hai).
+*   Force vector quantity hai.
+*   Charges add hote hain (algebraically).
+*   `k` ki value yaad rakho (approximately 9 x 10^9 N m²/C²).
+*   Attractive force negative hota hai aur repulsive force positive hota hai (in general).
+
+**Non-Important / Theoretical Topics (Just a Line)**
+
+*   "Charge is conserved" ka matlab hai ki total charge kabhi change nahi hota.
+*   "Frictional electricity" mein rubbing se charges transfer hote hain.
+*   "Induction" mein ek charged object dusre object mein charge redistribute karta hai.
+
+All the best for your exams! Focus on understanding the concepts and practicing problems.

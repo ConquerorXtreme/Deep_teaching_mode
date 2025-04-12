@@ -1,0 +1,68 @@
+Okay, chalo dekhte hain **Torque on an Electric Dipole Placed in an Electric Field** kaise tackle karna hai exam ke liye.
+
+**Key Concepts aur Formulas (with real-world touch):**
+
+*   **Electric Dipole:** Do equal aur opposite charges (+q aur -q) ek chote distance (d) se separated hain. Imagine karo ek water molecule (H₂O) – oxygen slightly negative, hydrogens slightly positive.
+
+*   **Electric Field (E):** Ek area jaha ek charge force experience karta hai. Think of it as gravity but for charges.
+
+*   **Torque (τ):**  Ek twisting force jo dipole ko घुमाने ki koshish karta hai jab wo ek electric field mein rakha jata hai. Imagine trying to align a compass needle with the Earth's magnetic field.
+
+*   **Formula:**  τ = pE sinθ
+
+    *   τ = magnitude of torque
+    *   p = dipole moment (p = qd, where q is the magnitude of charge and d is the distance between the charges)
+    *   E = electric field strength
+    *   θ = angle between the dipole moment vector (p) and the electric field (E)
+
+*   **Vector Form:** τ = p × E (cross product hai ye)
+
+**Common Question Patterns aur Approach:**
+
+1.  **Torque Calculate karna:**
+
+    *   **Question:** Ek dipole diya hai jisme charge q = [value] C hai, distance d = [value] m hai, aur ek electric field E = [value] N/C mein θ = [value] degrees angle par rakha hai. Torque calculate karo.
+    *   **Approach:**
+        1.  Dipole moment (p) nikalo: `p = q * d`
+        2.  Torque formula use karo: `τ = p * E * sin(θ)`
+        3.  Units ka dhyaan rakho (Nm - Newton meters).
+
+2.  **Maximum/Minimum Torque:**
+
+    *   **Question:**  Kab torque maximum hoga aur kab minimum?
+    *   **Answer:**
+        *   Torque **maximum** hoga jab θ = 90° (sin 90° = 1).  Dipole electric field ke perpendicular hai.
+        *   Torque **minimum** (zero) hoga jab θ = 0° ya 180° (sin 0° = sin 180° = 0). Dipole electric field ke parallel ya anti-parallel hai.
+
+3.  **Direction of Torque:**
+
+    *   **Question:** Torque ki direction kya hogi?
+    *   **Answer:** Direction cross product `p × E` se milti hai. Right-hand rule use karo: apni ungliyon ko `p` se `E` ki taraf curl karo, thumb torque ki direction dega. Yeh direction dipole ko electric field ke saath align karne ki koshish karti hai.
+
+**Quick Revision Points (Last Minute):**
+
+*   Torque ek *vector* quantity hai.  Magnitude aur direction dono important hain.
+*   `p` (dipole moment) ki direction `-q` se `+q` ki taraf hoti hai.
+*   Agar question mein work done ya potential energy pucha hai, toh `U = -p.E = -pEcosθ` formula yaad rakho.
+
+**Non-Important/Theoretical Topics (Overview):**
+
+*   Derivation of the torque formula - agar time kam hai toh skip kar sakte ho, but formula yaad rakho.
+*   Stability of dipole: Dipole `0` degree pe stable hota hai aur `180` degree pe unstable hota hai. Iska matlab hai ki jab dipole electric field ke parallel hota hai, toh woh stable equilibrium mein hota hai, aur agar aap usko thoda sa bhi displace karte hain toh woh vapas apni original position pe aa jayega. Lekin jab woh anti-parallel hota hai, toh woh unstable equilibrium mein hota hai, aur agar aap usko thoda sa bhi displace karte hain toh woh aur door chala jayega.
+
+**Example Question:**
+
+Ek electric dipole, jismein charges +/- 5 microcoulombs (µC) hain aur 2 mm door hain, ek uniform electric field 2 x 10^5 N/C mein rakha gaya hai. Field aur dipole moment ke beech angle 30 degrees hai. Torque calculate karo.
+
+**Solution:**
+
+1.  `q = 5 x 10^-6 C`
+2.  `d = 2 x 10^-3 m`
+3.  `E = 2 x 10^5 N/C`
+4.  `θ = 30°`
+5.  `p = q * d = (5 x 10^-6 C) * (2 x 10^-3 m) = 10 x 10^-9 Cm`
+6.  `τ = p * E * sin(θ) = (10 x 10^-9 Cm) * (2 x 10^5 N/C) * sin(30°) = (10 x 10^-9) * (2 x 10^5) * (0.5) = 1 x 10^-3 Nm`
+
+So, torque is `1 x 10^-3 Nm`.
+
+All the best!  Focus karo, formulas yaad karo, aur practice karo. Tum kar sakte ho!
