@@ -1,9 +1,12 @@
 import streamlit as st
+import requests
 from main import extract_toc_and_parse
 from full import process_chapter_content
-# Streamlit app
+
 st.set_page_config(page_title="Book to Course", layout="wide")
 st.title("📚 Book / Slides Course Generator")
+
+API_URL = "http://localhost:8000"  # FastAPI must run separately
 
 mode_selector = st.sidebar.radio("Select Mode", ["Book", "Slides"])
 
@@ -29,7 +32,6 @@ if mode_selector == "Book":
     if "chapters" in st.session_state:
         st.header("📑 Chapters")
 
-        # User Preferences
         with st.expander("🔧 Set Preferences"):
             learning_mode = st.selectbox("Learning Mode", ["deep dive", "last minute exam"])
             previous_knowledge = st.text_input("Your Previous Knowledge")
@@ -51,6 +53,22 @@ if mode_selector == "Book":
                         language=language
                     )
 
-elif mode_selector == "Slides":
+if mode_selector == "Slides":
     st.header("📽️ Slides Mode")
     st.info("Slides mode functionality will be added here.")
+
+# Optionally: Fetch files and play audio
+st.markdown("## 🔈 Listen to a Chapter")
+if st.button("📂 Load Available Files"):
+    resp = requests.get(f"{API_URL}/pdf-files")
+    if resp.status_code == 200:
+        files = resp.json().get("pdf_files", [])
+        file_choice = st.selectbox("Choose a File", files)
+        if st.button("🎤 Play Audio for Selected File"):
+            audio_resp = requests.post(f"{API_URL}/start-teaching", json={"file_name": file_choice})
+            if audio_resp.status_code == 200:
+                with open("audio.mp3", "wb") as f:
+                    f.write(audio_resp.content)
+                st.audio("audio.mp3")
+            else:
+                st.error("Could not generate audio.")
