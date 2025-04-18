@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import google.generativeai as genai
 from PyPDF2 import PdfReader, PdfWriter
-from load_dotenv import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
