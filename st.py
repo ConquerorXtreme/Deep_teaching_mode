@@ -92,6 +92,10 @@ elif mode_selector == "Teach Me":
             with open(file_path, "r", encoding="utf-8") as file:
                 text_content = file.read()
 
+            # Display the text content in the frontend
+            st.subheader("📜 Topic Content")
+            st.text_area("Text Content", text_content, height=300)
+
             # Clean text
             text_content = text_content.replace("*", "").replace("`", " ").replace("/", " divide by ")
 
