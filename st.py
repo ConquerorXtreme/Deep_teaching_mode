@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from gtts import gTTS
-from pydub import AudioSegment
+# from pydub import AudioSegment
 
 from main import extract_toc_and_parse
 from full import process_chapter_content
@@ -101,8 +101,8 @@ elif mode_selector == "Teach Me":
             tts.save(audio_path)
 
             # Optional: adjust pitch/speed using pydub if needed
-            audio = AudioSegment.from_file(audio_path)
-            st.audio(audio_path, format="audio/mp3")
+            # audio = AudioSegment.from_file(audio_path)
+            # st.audio(audio_path, format="audio/mp3")
             st.success("Audio generated and ready to play!")
 
         except Exception as e:
