@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import google.generativeai as genai 
-from load_dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 from trim import trim_pdf 
 import json  
