@@ -100,10 +100,18 @@ elif mode_selector == "Teach Me":
             tts = gTTS(text_content, lang="en", slow=False)
             tts.save(audio_path)
 
-            # Optional: adjust pitch/speed using pydub if needed
-            # audio = AudioSegment.from_file(audio_path)
-            # st.audio(audio_path, format="audio/mp3")
-            st.success("Audio generated and ready to play!")
+            # Provide audio for playback or download
+            with open(audio_path, "rb") as audio_file:
+                audio_bytes = audio_file.read()
+                st.audio(audio_bytes, format="audio/mp3")
+                st.download_button(
+                    label="📥 Download Audio",
+                    data=audio_bytes,
+                    file_name="generated_audio.mp3",
+                    mime="audio/mp3"
+                )
+
+            st.success("Audio generated and ready to play or download!")
 
         except Exception as e:
             st.error(f"Error: {str(e)}")
