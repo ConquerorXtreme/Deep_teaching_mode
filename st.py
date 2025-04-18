@@ -1,14 +1,16 @@
 import streamlit as st
-import requests
+import os
+from gtts import gTTS
+from pydub import AudioSegment
+
 from main import extract_toc_and_parse
 from full import process_chapter_content
 
+# Streamlit app setup
 st.set_page_config(page_title="Book to Course", layout="wide")
 st.title("📚 Book / Slides Course Generator")
 
-API_URL = "http://localhost:8000"  # FastAPI must run separately
-
-mode_selector = st.sidebar.radio("Select Mode", ["Book", "Slides"])
+mode_selector = st.sidebar.radio("Select Mode", ["Book", "Slides", "Teach Me"])
 
 if mode_selector == "Book":
     st.header("📘 Book Mode")
@@ -53,22 +55,55 @@ if mode_selector == "Book":
                         language=language
                     )
 
-if mode_selector == "Slides":
+elif mode_selector == "Slides":
     st.header("📽️ Slides Mode")
     st.info("Slides mode functionality will be added here.")
 
-# Optionally: Fetch files and play audio
-st.markdown("## 🔈 Listen to a Chapter")
-if st.button("📂 Load Available Files"):
-    resp = requests.get(f"{API_URL}/pdf-files")
-    if resp.status_code == 200:
-        files = resp.json().get("pdf_files", [])
-        file_choice = st.selectbox("Choose a File", files)
-        if st.button("🎤 Play Audio for Selected File"):
-            audio_resp = requests.post(f"{API_URL}/start-teaching", json={"file_name": file_choice})
-            if audio_resp.status_code == 200:
-                with open("audio.mp3", "wb") as f:
-                    f.write(audio_resp.content)
-                st.audio("audio.mp3")
-            else:
-                st.error("Could not generate audio.")
+elif mode_selector == "Teach Me":
+    st.header("🗣️ Teach Me (Text-to-Speech from Topics)")
+
+    base_output_path = "/home/aryan/deep-spark-mentor-ai/backend/output"
+    try:
+        all_chapters = sorted([
+            ch for ch in os.listdir(base_output_path)
+            if os.path.isdir(os.path.join(base_output_path, ch))
+        ])
+    except FileNotFoundError:
+        st.error("Output folder not found.")
+        st.stop()
+
+    selected_chapter = st.selectbox("Choose Chapter", all_chapters)
+
+    chapter_path = os.path.join(base_output_path, selected_chapter)
+    try:
+        topics = sorted([
+            f for f in os.listdir(chapter_path)
+            if f.endswith(".txt")
+        ])
+    except FileNotFoundError:
+        st.error("Chapter folder not found.")
+        st.stop()
+
+    selected_topic = st.selectbox("Choose Topic", topics)
+
+    if st.button("🔊 Generate and Play Audio"):
+        file_path = os.path.join(chapter_path, selected_topic)
+        try:
+            with open(file_path, "r", encoding="utf-8") as file:
+                text_content = file.read()
+
+            # Clean text
+            text_content = text_content.replace("*", "").replace("`", " ").replace("/", " divide by ")
+
+            # Convert to speech
+            audio_path = "part.mp3"
+            tts = gTTS(text_content, lang="en", slow=False)
+            tts.save(audio_path)
+
+            # Optional: adjust pitch/speed using pydub if needed
+            audio = AudioSegment.from_file(audio_path)
+            st.audio(audio_path, format="audio/mp3")
+            st.success("Audio generated and ready to play!")
+
+        except Exception as e:
+            st.error(f"Error: {str(e)}")
