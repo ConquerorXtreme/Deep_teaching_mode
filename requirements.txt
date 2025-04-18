@@ -1,0 +1,4 @@
+pyPDF2
+streamlit
+numpy
+google-generativeai==0.8.3  

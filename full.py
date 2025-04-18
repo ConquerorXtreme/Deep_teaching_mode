@@ -1,5 +1,4 @@
 import os
-import re
 from pathlib import Path
 import google.generativeai as genai
 from PyPDF2 import PdfReader, PdfWriter
