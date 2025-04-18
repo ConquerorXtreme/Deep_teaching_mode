@@ -62,7 +62,7 @@ elif mode_selector == "Slides":
 elif mode_selector == "Teach Me":
     st.header("🗣️ Teach Me (Text-to-Speech from Topics)")
 
-    base_output_path = "/home/aryan/deep-spark-mentor-ai/backend/output"
+    base_output_path = "/output"
     try:
         all_chapters = sorted([
             ch for ch in os.listdir(base_output_path)
